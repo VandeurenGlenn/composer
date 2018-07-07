@@ -1,0 +1,11 @@
+{
+  "name": "composer",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "backed": "^0.13.0",
+    "little-pubsub": "^0.2.2"
+  }
+}

@@ -1,0 +1,21 @@
+<html>
+  <head></head>
+  <body>
+    <span class="el"></span>
+  </body>
+  <script type="module">
+    import composer from '../src/index.js';
+    const el = document.querySelector('.el');
+    composer(el, {
+      properties: {
+        name: 'test-el',
+        link: {
+          value: null,
+          observer: '_linkChanged',
+          global: true // pubsub,
+          reflect: false
+        }
+      }
+    })
+  </script>
+</html>
